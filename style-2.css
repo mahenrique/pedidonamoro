@@ -1,0 +1,71 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:100vh;
+    width:100%;
+    background-image: url(./imgs/space-astronaut.png);
+    background-size: cover;
+    display: inline-flex;
+    justify-content: center;
+    margin:0;
+}
+
+#punchline-block{
+    margin-top:20vh;
+    margin-left:auto;
+    margin-right: auto;
+    display:inline-block;
+    position:absolute;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin-left: 15%;
+    opacity: 90%;
+}
+h2{
+    color:whitesmoke;
+    text-align: center;
+    margin-left: 15%;
+    opacity: 100%;
+}
+#img-logo{
+    width:20rem;
+    margin-left: 9%;
+}
+.btn{
+    display:flex;
+    margin-top: 75vh;
+    align-items: center;
+}
+#cta-button{
+    display: inline;
+    margin-top: 10vh;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 2vh;
+    text-transform: uppercase;
+    text-decoration:wavy;
+    background-color: #C52D2D;
+    color:white;
+    font-weight: 300;
+    filter: drop-shadow(30px 40px 30px rgba(0, 0, 0, 0.25));
+}
+#cta-button-yes{
+    display: inline;
+    margin-top: 10vh;
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 2vh;
+    text-transform: uppercase;
+    text-decoration:wavy;
+    background-color: #2dc535;
+    color:white;
+    font-weight: 300;
+    filter: drop-shadow(30px 40px 30px rgba(0, 0, 0, 0.25));
+}
+
